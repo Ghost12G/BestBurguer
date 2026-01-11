@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Burger Hosuse</title>
+  </head>
+
+  <body>
+    <!-- HEADER / INICIO -->
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/logo-dark.png" class="nav__logo-dark" />
+            <img src="assets/logo-white.png" class="nav__logo-white" />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#acerca">Acerca</a></li>
+        <li><a href="#contacto">Contáctenos</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <div class="header__image">
+          <img src="assets/burguer/BBQ-Bacon.png" alt="Burger" />
+        </div>
+        <div class="header__content">
+          <h2>ES EL MEJOR MOMENTO PARA</h2>
+          <h1>DISFRUTAR<br /><span>LA MEJOR HAMBURGUESA</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- CATEGORÍAS / MENÚ -->
+    <section class="section__container categorias" id="menu">
+      <a href="#hamburguesas" class="categoria__card">
+        <img
+          src="assets/burguer/crispy-chicken-burger.webp"
+          alt="HAMBURGUESA"
+        />
+        <h4>Hamburguesas</h4>
+      </a>
+
+      <a href="#bebidas" class="categoria__card">
+        <img src="assets/bebidas/sprite.png" alt="BEBIDA" />
+        <h4>Bebidas</h4>
+      </a>
+
+      <a href="#adicionales" class="categoria__card">
+        <img src="assets/adicionales/fried_chicken.png" alt="ADICIONAL" />
+        <h4>Adicionales</h4>
+      </a>
+
+      <a href="#promociones" class="categoria__card" alt="PROMOCIONES">
+        <img src="assets/header.png" alt="" />
+        <h4>Promociones</h4>
+      </a>
+    </section>
+
+    <!-- ACERCA DE -->
+    <section class="section__container acerca__container" id="acerca">
+      <h2 class="section__header">ACERCA DE NOSOTROS</h2>
+      <p class="section__description">
+        En <strong>Burger House</strong> creemos que una buena hamburguesa no
+        solo se come, se recuerda. Somos una hamburguesería que recién empieza,
+        impulsada por la pasión por el sabor auténtico, ingredientes frescos y
+        el compromiso de ofrecer calidad desde el primer día. Cada burger que
+        sale de nuestra cocina lleva dedicación, esfuerzo y muchas ganas de
+        crecer junto a nuestros clientes.
+      </p>
+    </section>
+
+    <!-- HAMBURGUESAS -->
+    <section class="section__container order__container" id="hamburguesas">
+      <h3>NUESTRAS HAMBURGUESAS</h3>
+      <h2 class="section__header">HECHAS AL MOMENTO</h2>
+      <p class="section__description">
+        Hamburguesas artesanales preparadas con ingredientes frescos y mucho
+        sabor.
+      </p>
+
+      <div class="order__grid">
+        <div class="order__card">
+          <img
+            src="assets/burguer/cheese-burger.webp"
+            alt="Hamburguesa con Queso"
+          />
+          <h4>Hamburguesa con Queso</h4>
+          <p>
+            Clásica y deliciosa, carne de res jugosa a la parrilla con una
+            generosa porción de queso fundido, lechuga fresca, tomate y nuestra
+            salsa especial en pan artesanal.
+          </p>
+          <button class="btn">S/ 18.00</button>
+        </div>
+
+        <div class="order__card">
+          <img
+            src="assets/burguer/crispy-chicken-burger.webp"
+            alt="Hamburguesa de pollo crujiente"
+          />
+          <h4>Hamburguesa de pollo crujiente</h4>
+          <p>
+            Pechuga de pollo empanizada y frita hasta quedar crujiente,
+            acompañada de lechuga, pepinillos y salsa cremosa, todo en pan suave
+            y dorado.
+          </p>
+          <button class="btn">S/ 17.00</button>
+        </div>
+
+        <div class="order__card">
+          <img
+            src="assets/burguer/classic-burger-Large.webp"
+            alt="Hamburguesa clásica grande"
+          />
+          <h4>hamburguesa clásica grande</h4>
+          <p>
+            La favorita de siempre: doble carne de res a la parrilla, queso
+            cheddar, cebolla caramelizada, tomate, lechuga y nuestra salsa
+            secreta. Una explosión de sabor en cada mordida.
+          </p>
+          <button class="btn">S/ 22.00</button>
+        </div>
+
+        <div class="order__card">
+          <img
+            src="assets/burguer/paneer-burger.webp"
+            alt="Hamburguesa de Paneer"
+          />
+          <h4>hamburguesa de paneer</h4>
+          <p>
+            Una opción deliciosa y diferente: queso paneer sazonado y a la
+            plancha, con hojas verdes, rodajas de tomate y aderezo especial,
+            todo en pan suave. Perfecta para vegetarianos y amantes de sabores
+            frescos.
+          </p>
+          <button class="btn">S/ 19.00</button>
+        </div>
+
+        <div class="order__card">
+          <img
+            src="assets/burguer/popular-burger-grill.png"
+            alt="Hamburguesa popular grande"
+          />
+          <h4>hamburguesa popular grande</h4>
+          <p>
+            Nuestra hamburguesa más vendida: carne de res jugosa, queso, tocino
+            crujiente, cebolla, lechuga y salsa BBQ casera. Una combinación que
+            no falla.
+          </p>
+          <button class="btn">S/ 24.00</button>
+        </div>
+
+        <div class="order__card">
+          <img
+            src="assets/burguer/Veggie-Fresh.png"
+            alt="Hamburguesa Veggie Fresh"
+          />
+          <h4>Veggie Fresh</h4>
+          <p>
+            Para quienes prefieren opciones ligeras y sabrosas: hamburguesa
+            vegetal hecha con ingredientes frescos, acompañada de pepino,
+            lechuga, tomate y salsa ranch en pan integral artesanal.
+          </p>
+          <button class="btn">S/ 18.50</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEBIDAS -->
+    <section class="section__container order__container" id="bebidas">
+      <h2 class="section__header">BEBIDAS</h2>
+
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/bebidas/Coca-Cola.webp" alt="Coca Cola" />
+          <h4>Coca Cola</h4>
+          <!--  <p>Coca-Cola</p> -->
+          <button class="btn">S/ 8.00</button>
+        </div>
+
+        <div class="order__card">
+          <img src="assets/bebidas/cocacolazeroo.png" alt="Coca Cola Zero" />
+          <h4>Coca Cola Zero</h4>
+          <!--  <p>Natural y refrescante</p> -->
+          <button class="btn">S/ 7.50</button>
+        </div>
+
+        <div class="order__card">
+          <img src="assets/bebidas/sprite.png" alt="Sprite" />
+          <h4>Sprite</h4>
+          <!--  <p>Natural y refrescante</p> -->
+          <button class="btn">S/ 6.00</button>
+        </div>
+
+        <div class="order__card">
+          <img src="assets/bebidas/pepsita.png" alt="Pepsi" />
+          <h4>Pepsi</h4>
+          <!-- <p>Natural y refrescante</p> -->
+          <button class="btn">S/ 6.50</button>
+        </div>
+
+        <div class="order__card">
+          <img src="assets/bebidas/pepsitwistt.png" alt="Pepsi Twist" />
+          <h4>Pepsi Twist</h4>
+          <!-- <p>Natural y refrescante</p> -->
+          <button class="btn">S/ 7.00</button>
+        </div>
+
+        <div class="order__card">
+          <img src="assets/bebidas/fanta.png" alt="Fanta" />
+          <h4>Fanta</h4>
+          <!-- <p>Natural y refrescante</p> -->
+          <button class="btn">S/ 6.00</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADICIONALES -->
+    <section class="section__container order__container" id="adicionales">
+      <h2 class="section__header">ADICIONALES</h2>
+
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/adicionales/french-fries.png" alt="Papas Fritas" />
+          <h4>Papas Fritas</h4>
+          <p>Porción crocante</p>
+          <button class="btn">S/ 9.00</button>
+        </div>
+
+        <div class="order__card">
+          <img src="assets/adicionales/bbq-chicken.png" alt="BBQ Chicken" />
+          <h4>BBQ Chicken</h4>
+          <p>6 unidades</p>
+          <button class="btn">S/ 12.00</button>
+        </div>
+
+        <div class="order__card">
+          <img src="assets/adicionales/hot-wingss.png" alt="Hot Wings" />
+          <h4>Hot Wings</h4>
+          <p>12 unidades</p>
+          <button class="btn">S/ 18.00</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMOCIONES -->
+    <section class="section__container order__container" id="promociones">
+      <h2 class="section__header">PROMOCIONES</h2>
+
+      <div class="promo__image-container">
+        <img
+          src="assets/promocion/pollito.png"
+          alt="Promoción Especial"
+          class="promo__image"
+        />
+      </div>
+      <p class="promo__dates">Válido del 15 al 25 de enero</p>
+    </section>
+
+    <!-- EVENTOS -->
+    <section class="section__container event__container" id="eventos">
+      <h2 class="section__header">PRÓXIMOS EVENTOS</h2>
+      <!-- <p class="section__description">
+        Mantente atento, pronto tendremos eventos y novedades.
+      </p> -->
+      <div class="event__grid">
+        <!-- Evento 1 -->
+        <div class="event__card">
+          <video class="event__image" controls autoplay muted > 
+            <source src="assets/movie/concierto.mp4" type="video/mp4" />
+            Tu navegador no soporta videos.
+          </video>
+          <h4>Concierto Especial</h4>
+          <p class="event__dates">Del 20 al 22 de enero</p>
+        </div>
+
+        <!-- Evento 2 -->
+        <div class="event__card">
+          <video class="event__image" controls autoplay muted loop>
+            <source src="assets/movie/feriagastronomica.mp4" type="video/mp4" />
+            Tu navegador no soporta videos.
+          </video>
+          <h4>Feria Gastronómica</h4>
+          <p class="event__dates">Sábado 25 de enero</p>
+        </div>
+
+        <!-- Evento 3 -->
+        <div class="event__card">
+          <video class="event__image" controls autoplay muted loop>
+            <source src="assets/movie/sanvalentin.mp4" type="video/mp4" />
+            Tu navegador no soporta videos.
+          </video>
+          <h4>San Valentin</h4>
+          <p class="event__dates">Sábado 14 de Febrero</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FIN DE EVENTOS -->
+
+    <!-- FOOTER (NO TOCAR) -->
+    <footer class="footer" id="contacto">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/logo-white.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Bienvenido a Burger Company, donde la pasión por la comida
+            excepcional y la hospitalidad genuina se unen. Nuestra historia se
+            basa en la dedicación a crear la experiencia de hamburguesa
+            perfecta, desde la selección de los mejores ingredientes hasta un
+            sabor inigualable en cada bocado.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                AV. España 23, Trujillo, Perú
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                info@burgerhouse.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2026 Burguer House. Todos los derechos reservados.
+      </div>
+    </footer>
+    <!-- introduccion del chat bot -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="GhostBot"
+      agent-id="e7dbbe07-a57b-477b-a30f-4c8bd9ad9998"
+      language-code="es"
+    ></df-messenger>
+    <!-- fin del chat bot -->
+    <!-- Introduccion a wassap -->
+    <a
+      href="https://wa.me/51912388784?text=Hola%20👋%20vengo%20desde%20la%20web%20Burger%20House.%20Quisiera%20realizar%20un%20pedido."
+      target="_blank"
+      class="whatsapp-float"
+    >
+      <i class="ri-whatsapp-line"></i>
+    </a>
+    <!-- fin del wassap -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
