@@ -281,7 +281,7 @@
       <div class="event__grid">
         <!-- Evento 1 -->
         <div class="event__card">
-          <video class="event__image" controls autoplay muted > 
+          <video class="event__image" controls autoplay muted>
             <source src="assets/movie/concierto.mp4" type="video/mp4" />
             Tu navegador no soporta videos.
           </video>
@@ -342,7 +342,6 @@
               <a href="#"><i class="ri-facebook-circle-fill"></i></a>
               <a href="#"><i class="ri-instagram-fill"></i></a>
               <a href="#"><i class="ri-twitter-fill"></i></a>
-              
             </div>
           </div>
         </div>
@@ -352,13 +351,18 @@
       </div>
     </footer>
     <!-- introduccion del chat bot -->
+    <!-- Contenedor -->
+    <div id="chat-container">
+      <df-messenger
+        intent="WELCOME"
+        chat-title="GhostBot"
+        agent-id="e7dbbe07-a57b-477b-a30f-4c8bd9ad9998"
+        language-code="es"
+      ></df-messenger>
+    </div>
+
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger
-      intent="WELCOME"
-      chat-title="GhostBot"
-      agent-id="e7dbbe07-a57b-477b-a30f-4c8bd9ad9998"
-      language-code="es"
-    ></df-messenger>
+
     <!-- fin del chat bot -->
     <!-- Introduccion a wassap -->
     <a

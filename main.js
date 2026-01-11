@@ -2,6 +2,8 @@ const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 
+
+
 menuBtn.addEventListener("click", () => {
   navLinks.classList.toggle("open");
   const isOpen = navLinks.classList.contains("open");
@@ -71,3 +73,11 @@ ScrollReveal().reveal("footer", {
   ...scrollRevealOption,
   origin: "top",
 });
+
+
+/* const chatContainer = document.getElementById("chat-container");
+const toggleBtn = document.getElementById("toggle-chat");
+
+toggleBtn.addEventListener("click", () => {
+  chatContainer.classList.toggle("minimized");
+}); */

@@ -699,11 +699,13 @@ nav {
   justify-content: center; /* centra horizontal */
   align-items: center;     /* centra vertical si hay altura extra */
   padding: 2rem 0;         /* espacio arriba y abajo */
+   text-align: center; /* centra la imagen */
 }
 
 /* Imagen de promoción */
 .promo__image {
-  max-width: 35%;          /* ocupa hasta el 80% del ancho de la pantalla */
+  width: 100%;       /* ocupa todo el ancho del contenedor */
+  max-width: 400px;  /* límite máximo para pantallas grandes */
   height: auto;            /* mantiene proporción */
   border-radius: 1rem;     /* opcional: bordes suaves */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* sombra suave */
@@ -765,3 +767,18 @@ nav {
   font-weight: 500;
 }
 /* Fin de estylo para seccion de eventos */
+
+
+
+/* CSS DEL CHATBOR */
+
+/* Contenedor del chat */
+#chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 350px;  /* tamaño normal */
+  max-height: 500px;
+  z-index: 9999;
+}
+
