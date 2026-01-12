@@ -158,9 +158,12 @@ nav {
 }
 
 .header__image img {
-  max-width: 600px;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
   margin-inline: auto;
 }
+
 
 .header__content h2 {
   max-width: 400px;
