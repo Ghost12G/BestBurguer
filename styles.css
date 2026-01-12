@@ -280,7 +280,7 @@ nav {
   filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.3));
 }
 
-.order__card h4 {
+.order__card h3 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: 600;
@@ -519,19 +519,7 @@ nav {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .event__content {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-  }
 
-  .event__image {
-    grid-area: 1/2/2/3;
-  }
-
-  .event__details,
-  .event__details .section__header {
-    text-align: left;
-  }
 
   .reservation__container form {
     max-width: 600px;
@@ -638,7 +626,7 @@ nav {
 }
 
 /* texto */
-.categoria__card h4 {
+.categoria__card h3 {
   margin-top: 3.5rem;
 }
 
@@ -763,7 +751,7 @@ nav {
   margin-bottom: 1rem;
 }
 
-.event__card h4 {
+.event__card h3 {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
