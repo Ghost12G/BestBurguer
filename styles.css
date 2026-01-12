@@ -362,6 +362,9 @@ nav {
 
 .footer__logo img {
   max-width: 250px;
+  height: auto;
+  display: block;
+
 }
 
 .footer__content {
