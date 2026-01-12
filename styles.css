@@ -106,6 +106,8 @@ nav {
 
 .nav__logo img {
   max-width: 150px;
+   height: auto;      /* 🔑 mantiene la proporción */
+  display: block;
 }
 
 .nav__logo-dark {
