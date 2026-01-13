@@ -51,7 +51,7 @@ ScrollReveal().reveal(".categoria__card", {
 // CARDS DE PRODUCTOS
 ScrollReveal().reveal(".order__card", {
   ...scrollRevealOption,
-  interval: 300,
+  interval: 200,
 });
 
 // SECCIONES GENERALES
